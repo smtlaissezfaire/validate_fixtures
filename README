@@ -1,13 +1,18 @@
+
 ValidateFixtures
 ================
 
-Introduction goes here.
+  For you poor suckers still using rails fixtures:
+
+  Validate your fixtures!
 
 
 Example
 =======
 
-Example goes here.
+  rake db:fixtures:validate
 
 
-Copyright (c) 2009 [name of plugin creator], released under the MIT license
+Originally taken from http://www.fozworks.com/2007/5/23/validating-fixtures
+
+Copyright (c) 2009 Scott Taylor <scott@railsnewbie.com>, released under the MIT license
