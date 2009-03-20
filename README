@@ -1,16 +1,13 @@
+= ValidateFixtures
 
-ValidateFixtures
-================
+For you poor suckers still using rails fixtures:
 
-  For you poor suckers still using rails fixtures:
-
-  Validate your fixtures!
+Validate your fixtures!
 
 
-Example
-=======
+= Example
 
-  rake db:fixtures:validate
+rake db:fixtures:validate
 
 
 Originally taken from http://www.fozworks.com/2007/5/23/validating-fixtures
