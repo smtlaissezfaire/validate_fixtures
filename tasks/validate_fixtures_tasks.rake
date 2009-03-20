@@ -1,7 +1,7 @@
 namespace :db do
   namespace :fixtures do
     desc "Validate Fixtures"
-    task :validate => :environment do
+    task :validate => [:environment, :load] do
       name_map = Hash.new { |h,k| h[k] = k }
 
       Dir.chdir("app/models") do
