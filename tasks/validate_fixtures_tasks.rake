@@ -17,7 +17,7 @@ namespace :db do
         begin
           klass = fixture.classify.constantize
           klass.find(:all).each do |thing|
-            unless thing.valid? then
+            unless thing.valid?
               puts "#{fixture}: id ##{thing.id} is invalid:" 
               thing.errors.full_messages.each do |msg|
                 puts "   - #{msg}" 
