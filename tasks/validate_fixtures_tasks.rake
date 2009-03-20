@@ -1,5 +1,6 @@
 namespace :db do
   namespace :fixtures do
+    desc "Validate Fixtures"
     task :validate => :environment do
       name_map = Hash.new { |h,k| h[k] = k }
 
